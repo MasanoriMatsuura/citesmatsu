@@ -5,6 +5,7 @@ setwd("C:\\Users\\user\\Documents\\NIES\\cites_matsu\\Trade_database_download_v2
 
 ###install packages ###
 pacman::p_load(tidyverse, plyr, dplyr, ggplot2, readr, here, data.table, parallel, ggridges, here)
+here() #"C:/Users/user/Documents/NIES/cites_matsu/cites_matsu"
 
 ### import and append multiple csv ###
 mydir = "C:\\Users\\user\\Documents\\NIES\\cites_matsu\\Trade_database_download_v2021.1\\Trade_database_download_v2021.1"
